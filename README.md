@@ -1,0 +1,1 @@
+article: article: http://confluence.marcuschiu.com/display/NOT/Java+-+Spring+-+Zookeeper

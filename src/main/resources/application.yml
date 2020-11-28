@@ -1,0 +1,13 @@
+server:
+  port : 8081
+spring:
+  application:
+    name: ZookeeperExampleProducer
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+      discovery:
+        enabled: true
+logging:
+  level:
+    org.apache.zookeeper.ClientCnxn: WARN
